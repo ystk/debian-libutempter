@@ -1,3 +1,9 @@
+libutempter (1.1.5-4) unstable; urgency=low
+
+  * Use getent instead of grep /etc/group. (Closes: #614258)
+
+ -- Fathi Boudra <fabo@debian.org>  Mon, 21 Feb 2011 14:10:59 +0200
+
 libutempter (1.1.5-3) unstable; urgency=low
 
   * Switch to dpkg-source 3.0 (quilt) format.
